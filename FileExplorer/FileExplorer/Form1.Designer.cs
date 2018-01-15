@@ -29,17 +29,54 @@
         private void InitializeComponent()
         {
             this.radRibbonBar1 = new Telerik.WinControls.UI.RadRibbonBar();
+            this.ribbonTab1 = new Telerik.WinControls.UI.RibbonTab();
+            this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
+            this.ribbonTab3 = new Telerik.WinControls.UI.RibbonTab();
+            this.ribbonTab4 = new Telerik.WinControls.UI.RibbonTab();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
             // 
             // radRibbonBar1
             // 
+            this.radRibbonBar1.CommandTabs.AddRange(new Telerik.WinControls.RadItem[] {
+            this.ribbonTab1,
+            this.ribbonTab2,
+            this.ribbonTab3,
+            this.ribbonTab4});
             this.radRibbonBar1.Location = new System.Drawing.Point(0, 0);
             this.radRibbonBar1.Name = "radRibbonBar1";
             this.radRibbonBar1.Size = new System.Drawing.Size(768, 148);
             this.radRibbonBar1.TabIndex = 0;
             this.radRibbonBar1.Text = "Form1";
+            // 
+            // ribbonTab1
+            // 
+            this.ribbonTab1.AccessibleDescription = "Home";
+            this.ribbonTab1.AccessibleName = "Home";
+            this.ribbonTab1.Name = "ribbonTab1";
+            this.ribbonTab1.Text = "Home";
+            // 
+            // ribbonTab2
+            // 
+            this.ribbonTab2.AccessibleDescription = "Share";
+            this.ribbonTab2.AccessibleName = "Share";
+            this.ribbonTab2.Name = "ribbonTab2";
+            this.ribbonTab2.Text = "Share";
+            // 
+            // ribbonTab3
+            // 
+            this.ribbonTab3.AccessibleDescription = "View";
+            this.ribbonTab3.AccessibleName = "View";
+            this.ribbonTab3.Name = "ribbonTab3";
+            this.ribbonTab3.Text = "View";
+            // 
+            // ribbonTab4
+            // 
+            this.ribbonTab4.AccessibleDescription = "Themes";
+            this.ribbonTab4.AccessibleName = "Themes";
+            this.ribbonTab4.Name = "ribbonTab4";
+            this.ribbonTab4.Text = "Themes";
             // 
             // Form1
             // 
@@ -63,6 +100,10 @@
         #endregion
 
         private Telerik.WinControls.UI.RadRibbonBar radRibbonBar1;
+        private Telerik.WinControls.UI.RibbonTab ribbonTab1;
+        private Telerik.WinControls.UI.RibbonTab ribbonTab2;
+        private Telerik.WinControls.UI.RibbonTab ribbonTab3;
+        private Telerik.WinControls.UI.RibbonTab ribbonTab4;
     }
 }
 
