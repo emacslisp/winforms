@@ -75,6 +75,7 @@
             // 
             this.ribbonTab4.AccessibleDescription = "Themes";
             this.ribbonTab4.AccessibleName = "Themes";
+            this.ribbonTab4.Image = global::FileExplorer.Properties.Resources._1_copy_as_path;
             this.ribbonTab4.Name = "ribbonTab4";
             this.ribbonTab4.Text = "Themes";
             // 
