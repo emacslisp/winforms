@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace FileExplorer
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Telerik.WinControls.UI.RadRibbonForm
     {
         public Form1()
         {
