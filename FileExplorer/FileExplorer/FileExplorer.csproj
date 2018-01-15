@@ -92,6 +92,72 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\1-copy-as-path.png" />
+    <Content Include="Resources\1-copy-to-folder.png" />
+    <Content Include="Resources\1-copy.png" />
+    <Content Include="Resources\1-cut.png" />
+    <Content Include="Resources\1-delete.png" />
+    <Content Include="Resources\1-desktop.png" />
+    <Content Include="Resources\1-documents.png" />
+    <Content Include="Resources\1-downloads.png" />
+    <Content Include="Resources\1-edit.png" />
+    <Content Include="Resources\1-history.png" />
+    <Content Include="Resources\1-invert-selection.png" />
+    <Content Include="Resources\1-local-disc.png" />
+    <Content Include="Resources\1-music.png" />
+    <Content Include="Resources\1-new-folder.png" />
+    <Content Include="Resources\1-new-items.png" />
+    <Content Include="Resources\1-open-with.png" />
+    <Content Include="Resources\1-open.png" />
+    <Content Include="Resources\1-paste.png" />
+    <Content Include="Resources\1-properties.png" />
+    <Content Include="Resources\1-rename.png" />
+    <Content Include="Resources\1-select-all.png" />
+    <Content Include="Resources\1-select-none.png" />
+    <Content Include="Resources\1-system-32.png" />
+    <Content Include="Resources\1-zip.png" />
+    <Content Include="Resources\2-advanced-security.png" />
+    <Content Include="Resources\2-burn.png" />
+    <Content Include="Resources\2-fax.png" />
+    <Content Include="Resources\2-mail.png" />
+    <Content Include="Resources\2-share-with-others.png" />
+    <Content Include="Resources\2-sort.png" />
+    <Content Include="Resources\2-web-sharing.png" />
+    <Content Include="Resources\3-add-column.png" />
+    <Content Include="Resources\3-detail-pane.png" />
+    <Content Include="Resources\3-details.png" />
+    <Content Include="Resources\3-extra-large-icons.png" />
+    <Content Include="Resources\3-group-by.png" />
+    <Content Include="Resources\3-hide-selected-file.png" />
+    <Content Include="Resources\3-large-icons.png" />
+    <Content Include="Resources\3-list.png" />
+    <Content Include="Resources\3-medium-icons.png" />
+    <Content Include="Resources\3-navigation-pane.png" />
+    <Content Include="Resources\3-preview-pane.png" />
+    <Content Include="Resources\3-refresh.png" />
+    <Content Include="Resources\3-size-all-columns.png" />
+    <Content Include="Resources\3-small-cions.png" />
+    <Content Include="Resources\back.png" />
+    <Content Include="Resources\computer.png" />
+    <Content Include="Resources\controldefault.png" />
+    <Content Include="Resources\cross.png" />
+    <Content Include="Resources\detailsViewIcon.png" />
+    <Content Include="Resources\documents.png" />
+    <Content Include="Resources\favorites.png" />
+    <Content Include="Resources\foward.png" />
+    <Content Include="Resources\history.png" />
+    <Content Include="Resources\iconsViewIcon.png" />
+    <Content Include="Resources\office2010black.png" />
+    <Content Include="Resources\office2010blue.png" />
+    <Content Include="Resources\office2010silver.png" />
+    <Content Include="Resources\refresh.png" />
+    <Content Include="Resources\search.png" />
+    <Content Include="Resources\telerik.png" />
+    <Content Include="Resources\telerikLogo.png" />
+    <Content Include="Resources\up.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
