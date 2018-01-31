@@ -39,6 +39,12 @@
             this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
             this.ribbonTab3 = new Telerik.WinControls.UI.RibbonTab();
             this.ribbonTab4 = new Telerik.WinControls.UI.RibbonTab();
+            this.radRibbonBarGroup2 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radButtonElement1 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radRibbonBarGroup3 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radNewItems = new Telerik.WinControls.UI.RadDropDownButtonElement();
+            this.radDropDownButtonElement2 = new Telerik.WinControls.UI.RadDropDownButtonElement();
+            this.radRibbonBarButtonGroup2 = new Telerik.WinControls.UI.RadRibbonBarButtonGroup();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -62,7 +68,9 @@
             this.ribbonTab1.AccessibleName = "Home";
             this.ribbonTab1.IsSelected = true;
             this.ribbonTab1.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radRibbonBarGroup1});
+            this.radRibbonBarGroup1,
+            this.radRibbonBarGroup2,
+            this.radRibbonBarGroup3});
             this.ribbonTab1.Name = "ribbonTab1";
             this.ribbonTab1.Text = "Home";
             // 
@@ -158,6 +166,71 @@
             this.ribbonTab4.Name = "ribbonTab4";
             this.ribbonTab4.Text = "Themes";
             // 
+            // radRibbonBarGroup2
+            // 
+            this.radRibbonBarGroup2.AccessibleDescription = "New";
+            this.radRibbonBarGroup2.AccessibleName = "New";
+            this.radRibbonBarGroup2.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement1,
+            this.radNewItems});
+            this.radRibbonBarGroup2.Name = "radRibbonBarGroup2";
+            this.radRibbonBarGroup2.Text = "New";
+            // 
+            // radButtonElement1
+            // 
+            this.radButtonElement1.AccessibleDescription = "New folder";
+            this.radButtonElement1.AccessibleName = "New folder";
+            this.radButtonElement1.Image = global::FileExplorer.Properties.Resources._1_new_folder;
+            this.radButtonElement1.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radButtonElement1.Name = "radButtonElement1";
+            this.radButtonElement1.Text = "New folder";
+            this.radButtonElement1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // radRibbonBarGroup3
+            // 
+            this.radRibbonBarGroup3.AccessibleDescription = "Organize";
+            this.radRibbonBarGroup3.AccessibleName = "Organize";
+            this.radRibbonBarGroup3.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radDropDownButtonElement2,
+            this.radRibbonBarButtonGroup2});
+            this.radRibbonBarGroup3.Name = "radRibbonBarGroup3";
+            this.radRibbonBarGroup3.Text = "Organize";
+            // 
+            // radNewItems
+            // 
+            this.radNewItems.AccessibleDescription = "New Items";
+            this.radNewItems.AccessibleName = "New Items";
+            this.radNewItems.ArrowButtonMinSize = new System.Drawing.Size(12, 12);
+            this.radNewItems.ArrowPosition = Telerik.WinControls.UI.DropDownButtonArrowPosition.Bottom;
+            this.radNewItems.DropDownDirection = Telerik.WinControls.UI.RadDirection.Down;
+            this.radNewItems.ExpandArrowButton = false;
+            this.radNewItems.Image = global::FileExplorer.Properties.Resources._1_new_items;
+            this.radNewItems.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radNewItems.Name = "radNewItems";
+            this.radNewItems.Text = "New Items";
+            this.radNewItems.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // radDropDownButtonElement2
+            // 
+            this.radDropDownButtonElement2.AccessibleDescription = "Delete";
+            this.radDropDownButtonElement2.AccessibleName = "Delete";
+            this.radDropDownButtonElement2.ArrowButtonMinSize = new System.Drawing.Size(12, 12);
+            this.radDropDownButtonElement2.ArrowPosition = Telerik.WinControls.UI.DropDownButtonArrowPosition.Bottom;
+            this.radDropDownButtonElement2.DropDownDirection = Telerik.WinControls.UI.RadDirection.Down;
+            this.radDropDownButtonElement2.ExpandArrowButton = false;
+            this.radDropDownButtonElement2.Image = global::FileExplorer.Properties.Resources._1_delete;
+            this.radDropDownButtonElement2.ImageAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.radDropDownButtonElement2.Name = "radDropDownButtonElement2";
+            this.radDropDownButtonElement2.Text = "Delete";
+            this.radDropDownButtonElement2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            // 
+            // radRibbonBarButtonGroup2
+            // 
+            this.radRibbonBarButtonGroup2.AccessibleDescription = "radRibbonBarButtonGroup2";
+            this.radRibbonBarButtonGroup2.AccessibleName = "radRibbonBarButtonGroup2";
+            this.radRibbonBarButtonGroup2.Name = "radRibbonBarButtonGroup2";
+            this.radRibbonBarButtonGroup2.Text = "radRibbonBarButtonGroup2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -190,6 +263,12 @@
         private Telerik.WinControls.UI.RadButtonElement cutButton;
         private Telerik.WinControls.UI.RadButtonElement copyButton;
         private Telerik.WinControls.UI.RadButtonElement copyAsPathButton;
+        private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup2;
+        private Telerik.WinControls.UI.RadButtonElement radButtonElement1;
+        private Telerik.WinControls.UI.RadRibbonBarGroup radRibbonBarGroup3;
+        private Telerik.WinControls.UI.RadDropDownButtonElement radNewItems;
+        private Telerik.WinControls.UI.RadDropDownButtonElement radDropDownButtonElement2;
+        private Telerik.WinControls.UI.RadRibbonBarButtonGroup radRibbonBarButtonGroup2;
     }
 }
 
