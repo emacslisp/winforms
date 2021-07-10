@@ -42,12 +42,12 @@
             this.radRibbonBarGroup3 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radDropDownButtonElement2 = new Telerik.WinControls.UI.RadDropDownButtonElement();
             this.radRibbonBarButtonGroup2 = new Telerik.WinControls.UI.RadRibbonBarButtonGroup();
-            this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
-            this.ribbonTab3 = new Telerik.WinControls.UI.RibbonTab();
-            this.ribbonTab4 = new Telerik.WinControls.UI.RibbonTab();
             this.radRibbonBarGroup4 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radRibbonBarGroup5 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radRibbonBarGroup6 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
+            this.ribbonTab3 = new Telerik.WinControls.UI.RibbonTab();
+            this.ribbonTab4 = new Telerik.WinControls.UI.RibbonTab();
             ((System.ComponentModel.ISupportInitialize)(this.radRibbonBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
             this.SuspendLayout();
@@ -61,7 +61,7 @@
             this.ribbonTab4});
             this.radRibbonBar1.Location = new System.Drawing.Point(0, 0);
             this.radRibbonBar1.Name = "radRibbonBar1";
-            this.radRibbonBar1.Size = new System.Drawing.Size(768, 163);
+            this.radRibbonBar1.Size = new System.Drawing.Size(805, 163);
             this.radRibbonBar1.TabIndex = 0;
             this.radRibbonBar1.Text = "Form1";
             // 
@@ -215,6 +215,27 @@
             this.radRibbonBarButtonGroup2.Name = "radRibbonBarButtonGroup2";
             this.radRibbonBarButtonGroup2.Text = "radRibbonBarButtonGroup2";
             // 
+            // radRibbonBarGroup4
+            // 
+            this.radRibbonBarGroup4.AccessibleDescription = "Move to folder";
+            this.radRibbonBarGroup4.AccessibleName = "Move to folder";
+            this.radRibbonBarGroup4.Name = "radRibbonBarGroup4";
+            this.radRibbonBarGroup4.Text = "Move to folder";
+            // 
+            // radRibbonBarGroup5
+            // 
+            this.radRibbonBarGroup5.AccessibleDescription = "Open";
+            this.radRibbonBarGroup5.AccessibleName = "Open";
+            this.radRibbonBarGroup5.Name = "radRibbonBarGroup5";
+            this.radRibbonBarGroup5.Text = "Open";
+            // 
+            // radRibbonBarGroup6
+            // 
+            this.radRibbonBarGroup6.AccessibleDescription = "Select";
+            this.radRibbonBarGroup6.AccessibleName = "Select";
+            this.radRibbonBarGroup6.Name = "radRibbonBarGroup6";
+            this.radRibbonBarGroup6.Text = "Select";
+            // 
             // ribbonTab2
             // 
             this.ribbonTab2.AccessibleDescription = "Share";
@@ -237,32 +258,11 @@
             this.ribbonTab4.Name = "ribbonTab4";
             this.ribbonTab4.Text = "Themes";
             // 
-            // radRibbonBarGroup4
-            // 
-            this.radRibbonBarGroup4.AccessibleDescription = "Move to folder";
-            this.radRibbonBarGroup4.AccessibleName = "Move to folder";
-            this.radRibbonBarGroup4.Name = "radRibbonBarGroup4";
-            this.radRibbonBarGroup4.Text = "Move to folder";
-            // 
-            // radRibbonBarGroup5
-            // 
-            this.radRibbonBarGroup5.AccessibleDescription = "Open";
-            this.radRibbonBarGroup5.AccessibleName = "Open";
-            this.radRibbonBarGroup5.Name = "radRibbonBarGroup5";
-            this.radRibbonBarGroup5.Text = "Open";
-            // 
-            // radRibbonBarGroup6
-            // 
-            this.radRibbonBarGroup6.AccessibleDescription = "Select";
-            this.radRibbonBarGroup6.AccessibleName = "Select";
-            this.radRibbonBarGroup6.Name = "radRibbonBarGroup6";
-            this.radRibbonBarGroup6.Text = "Select";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 461);
+            this.ClientSize = new System.Drawing.Size(805, 529);
             this.Controls.Add(this.radRibbonBar1);
             this.Name = "Form1";
             // 
